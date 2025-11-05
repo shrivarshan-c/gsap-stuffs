@@ -1,0 +1,59 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: gilroy;
+}
+
+
+html,body {
+
+    height: 100%;
+    width: 100%;
+  background-color: black;
+
+}
+
+.page1{
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(44, 47, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.page2{
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(92, 93, 92);
+
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page3{
+
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.circle{
+
+    height: 309px;
+    width: 309px;
+    border-radius: 50%;
+    background-color:crimson;
+}
