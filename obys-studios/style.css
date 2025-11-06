@@ -1,30 +1,26 @@
 @font-face {
     font-family: "Plain";
-    src: url(./fonts/plain-regular-webfont.woff)format('woff');
+    src: url('./fonts/plain-regular-webfont.woff')format('woff');
 }
 
+
+@font-face {
+    font-family: "silk serif";
+    src: url('./fonts/SilkSerif-TRIAL-Light-BF6740066e4d5cb.ttf')format("truetype");
+}
 *{
-
-
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+ margin:0;
+padding:0;
+box-sizing: border-box;
 }
-
-
 
 html,body {
-
-
     height: 100%;
     width: 100%;
     background-color: black;
     color:white;
 
 }
-
-
-
 .loader{
 
 height: 100%;
@@ -32,16 +28,51 @@ width: 100%;
 background-color:black;
 z-index: 9999;
 padding: 20vh 10vw;
-}
 
+}
 
 .line {
 
-   
+height: fit-content;
     margin-bottom: 5px;
     overflow: hidden;
- 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    position: relative;
+
 }
+
+
+.preloader{
+
+height: auto;
+width: auto;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    padding: 1vw;
+    margin-right: 30px;
+
+}
+
+
+.preloader h5{
+
+    width: 5vw;
+}
+
+.preloader  h5 ,.preloader h6{
+
+font-size: 2.5vw;
+font-style: italic;
+font-family:'silk serif';
+font-weight: 100;
+}
+
 
 .line h1{
 
@@ -49,10 +80,6 @@ padding: 20vh 10vw;
     text-transform: uppercase;
     font-weight: 900;
    font-family: "Plain";
-
-
-
-
 
 }
 
@@ -95,4 +122,3 @@ padding: 20vh 10vw;
 
 
 }
-
