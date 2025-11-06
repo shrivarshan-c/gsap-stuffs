@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family:"ppwoodland";
+    src: url(./ppwoodland-bold.otf) format("opentype");
+  
+    font-style: normal;
+}
+
+
+*{
+
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+
+.page1{
+
+
+    height: 100%;
+    width: 100%;
+    background-color: #F7F7EE;
+}
+
+
+.page2
+{
+
+   min-height: 100vh;
+    width: 100%;
+    background-color:#5b6647 ;
+    padding: 5vw;
+}
+
+
+.page2 h1 {
+
+    text-align: center;
+    color: #434b34;
+    font-size:4vw;
+    font-family: "ppwoodland";
+    font-weight: 100;
+    line-height: 4.8vw;
+
+}
+
+.page3{
+
+
+    height: 100%;
+    width: 100%;
+    background-color: #F7F7EE;
+}

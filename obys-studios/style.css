@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Plain";
+    src: url(./fonts/plain-regular-webfont.woff)format('woff');
+}
+
+*{
+
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+html,body {
+
+
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color:white;
+
+}
+
+
+
+.loader{
+
+height: 100%;
+width: 100%;
+background-color:black;
+z-index: 9999;
+padding: 20vh 10vw;
+}
+
+
+.line {
+
+   
+    margin-bottom: 5px;
+    overflow: hidden;
+ 
+}
+
+.line h1{
+
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-weight: 900;
+   font-family: "Plain";
+
+
+
+
+
+}
+
+
+
+.main{
+
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+
+
+.page1{
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(87, 83, 83);
+
+
+}
+
+.page2{
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(136, 96, 96);
+
+
+}
+
+.page3{
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243, 39, 39);
+
+
+}
+
