@@ -49,11 +49,11 @@ height: fit-content;
 
 height: auto;
 width: auto;
-    background-color: red;
+
     display: flex;
     align-items: center;
     justify-content: center;
- 
+
     padding: 1vw;
     margin-right: 30px;
 
@@ -63,6 +63,7 @@ width: auto;
 .preloader h5{
 
     width: 5vw;
+    overflow: hidden;
 }
 
 .preloader  h5 ,.preloader h6{
@@ -74,13 +75,20 @@ font-weight: 100;
 }
 
 
-.line h1{
+.line h1 ,.line h2{
 
     font-size: 6vw;
     text-transform: uppercase;
     font-weight: 900;
    font-family: "Plain";
+   
 
+
+}
+
+.line:nth-child(3) h1{
+
+    margin-right: 35px;
 }
 
 
