@@ -20,20 +20,19 @@ var loader = document.querySelector(".preloader h5").textContent;
 var count=0;
 
 
-        setInterval((element) => {
+   var counter =  setInterval((element) => {
             if(count<100)
             {
                 count++;
                 document.querySelector(".preloader h5").textContent= count;
 
                 console.log(count);
-
             }
             else
             {
                 count=100;
                 document.querySelector(".preloader h5").textContent= count;
-                clearInterval(count);
+                clearInterval(counter);
 
             }
 
@@ -42,29 +41,22 @@ var count=0;
     }
 
 })
-
-
 tl.to(".loader",{
 
-    opacity:0,
+
     delay:3,
-    duration:0.4
+    duration:0.8,
+
+    display:"none"
 })
-
-
 
 tl.from(".page1",{
-
-    y:1800,
-    opacity:0,
-    duration:1,
-    stagger:1,
-    
+y:1200,
+opacity:0
 
 })
+
 
 tl.to(".loader",{
     display:"none"
 })
-
-t
